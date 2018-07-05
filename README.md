@@ -15,33 +15,33 @@
 =================================================================================================
 - 若未安裝docker環境
 	1. Ubuntu Install Docker
-		apt-get install apt-transport-https
-		apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 36A1D7869245C8950F966E92D8576A8BA88D21E9
-		bash -c "echo deb https://get.docker.io/ubuntu docker main > /etc/apt/sources.list.d/docker.list"
-		apt-get update
-		apt-get install -y lxc-docker
+		- apt-get install apt-transport-https
+		- apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 36A1D7869245C8950F966E92D8576A8BA88D21E9
+		- bash -c "echo deb https://get.docker.io/ubuntu docker main > /etc/apt/sources.list.d/docker.list"
+		- apt-get update
+		- apt-get install -y lxc-docker
 
 - 若尚未安裝各Library
 	1. Build curl(../libdocker_test_0502-master/curl)
-		./configure
-		make
-		make install
+		- ./configure
+		- make
+		- make install
 
 		(可能需要修改環境變數)
-		vi /etc/ld.so.conf
-		add /ur/local/lib in lid.so.conf
+		- vi /etc/ld.so.conf
+		- add /ur/local/lib in lid.so.conf
 
 	2. Build Jansson  (../libdocker_test_0502-master/jansson)
-		cmake ./
-		make
-		make install
+		- cmake ./
+		- make
+		- make install
 		
 	3. Build libdocker (../libdocker_test_0502-master/libdocker_example)
-		cmake ./
-		make
+		- cmake ./
+		- make
 		
 	4. 使用example (../libdocker_test_0502-master/libdocker_example)
-		./example
+		- ./example
 	
 # C Code API介面 #
 =================================================================================================
