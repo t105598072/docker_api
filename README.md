@@ -13,7 +13,7 @@
 
 # 使用說明 #
 =================================================================================================
-若未安裝docker環境
+- 若未安裝docker環境
 	1. Ubuntu Install Docker
 		apt-get install apt-transport-https
 		apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 36A1D7869245C8950F966E92D8576A8BA88D21E9
@@ -21,7 +21,7 @@
 		apt-get update
 		apt-get install -y lxc-docker
 
-若尚未安裝各Library
+- 若尚未安裝各Library
 	1. Build curl(../libdocker_test_0502-master/curl)
 		./configure
 		make
