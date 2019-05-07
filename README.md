@@ -1,5 +1,5 @@
 # 前置作業 #
-=================================================================================================
+
 - Libdocker需要環境
 	- docker 
 		https://docs.docker.com/
@@ -12,7 +12,7 @@
 		- http://www.digip.org/jansson/
 
 # 使用說明 #
-=================================================================================================
+
 - 若未安裝docker環境
 	1. Ubuntu Install Docker
 		- $ apt-get install apt-transport-https
@@ -44,7 +44,7 @@
 		- $ ./example
 	
 # C Code API介面 #
-=================================================================================================
+
 - CURLcode docker_pull_image(DOCKER *client, char *image);
 	- Pulling images form github with the parameter of imput images name.(docker pull IMAGE)
 	- @param DOCKER (in) libdocker Handle.
