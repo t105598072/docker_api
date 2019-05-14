@@ -89,7 +89,6 @@
 	- @param DOCKER (in) libdocker Handle.
 
 # ERROR CODE #
-=================================================================================================
 - JSON_DATA_ERROR	 	 		-1
 - JSON_ROOT_ERROR		 		-2
 - JSON_CANT_FIND_CONTAINERID  			-3
